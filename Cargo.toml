@@ -1,0 +1,16 @@
+[package]
+name = "rust-websocket"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix = "0.10"
+actix-codec = "0.3"
+actix-web = "3"
+actix-web-actors = "3"
+actix-files = "0.3"
+awc = "2"
+env_logger = "0.7"
+futures = "0.3.1"
+bytes = "0.5.3"
